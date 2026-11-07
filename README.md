@@ -1,1 +1,0 @@
-# instaling.pl-bot
