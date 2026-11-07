@@ -10,7 +10,7 @@ An automated bot designed to streamline the daily exercises on instaling.pl. Thi
 - [Description](#description-)
 - [Features](#features-)
 - [Tech Stack](#tech-stack-)
-- [Installation](#installation-)
+- [Installation](#installation-%EF%B8%8F)
 - [Usage](#usage-)
 - [How to Use](#how-to-use-)
 - [Project Structure](#project-structure-)
