@@ -6,16 +6,18 @@ An automated bot designed to streamline the daily exercises on instaling.pl. Thi
 
 ## Table of Contents 📜
 
-- [Project Title & Badges](#instalingpl-bot-%EF%B8%8F)
-- [Description](#description)
-- [Features](#features-%EF%B8%8F)
-- [Tech Stack](#tech-stack-%ec%97%b0)
-- [Installation](#installation-%EF%B8%8F)
-- [Usage](#usage-%EF%B8%8F)
-- [Project Structure](#project-structure-%F0%9F%AA%A1)
-- [Contributing](#contributing-%EF%B8%8F)
-- [License](#license-%F0%9F%93%9C)
-- [Footer](#footer-%F0%9F%8E%97%EF%B8%8F)
+- [Project Title & Badges](#instalingpl-bot-)
+- [Description](#description-)
+- [Features](#features-)
+- [Tech Stack](#tech-stack-)
+- [Installation](#installation-)
+- [Usage](#usage-)
+- [How to Use](#how-to-use-)
+- [Project Structure](#project-structure-)
+- [API Reference](#api-reference-)
+- [Contributing](#contributing-)
+- [License](#license-)
+- [Footer](#footer-)
 
 ## Description 📝
 
