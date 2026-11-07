@@ -1,0 +1,17 @@
+{
+  "name": "instaling.pl-bot",
+  "version": "1.0.0",
+  "description": "An bot for automating daily instaling.pl exercises",
+  "license": "ISC",
+  "author": "Zaneoox",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.6",
+    "dotenv": "^18.0.9",
+    "puppeteer": "^25.16.0"
+  }
+}
