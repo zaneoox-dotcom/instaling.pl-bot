@@ -57,22 +57,19 @@ The instaling.pl-bot is a sophisticated tool built with Node.js that automates t
    npm install
    ```
 
-3. **Configure Environment Variables:**
-   Create a `.env` file in the root of the project and add your credentials:
+3. **Get a Google Gemini API Key:**
+   * Go to [Google AI Studio API Keys](https://aistudio.google.com/api-keys) and sign in with your Google account.
+   * Click **Create API key**, select or create a Google Cloud project, and copy the generated key.
+
+4. **Configure Environment Variables:**
+   Create a `.env` file in the root of the project and add your credentials (for `GEMINI_MODELS`, list at least 3 models separated by commas for fallback):
 
    ```env
    GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-   GEMINI_MODELS=MODELS_YOU_WANT_TO_USE(EX.gemini-3.5-flash-lite)
+   GEMINI_MODELS=gemini-3.5-flash-lite,gemini-3.1-flash-lite,gemini-2.5-flash-lite,gemini-3.8-flash,gemini-3.5-flash
    user=YOUR_INSTALING_EMAIL
    password=YOUR_INSTALING_PASSWORD
    ```
-
-4. **Run Calibration (First Time Use):**
-   The first time you run the bot, it will prompt you to calibrate. Follow the on-screen instructions to record your mouse and typing patterns.
-   ```bash
-   node index.js
-   ```
-   Alternatively, if `rec.json` doesn't exist, it will automatically start calibration.
 
 ## Usage 💡
 
