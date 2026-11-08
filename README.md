@@ -75,7 +75,7 @@ The instaling.pl-bot is a sophisticated tool built with Node.js that automates t
 
 Once installed and configured, you can run the bot to automate your instaling.pl exercises:
 
-1. * **Configure Mistake Settings:**
+1. **Configure Mistake Settings:**
      In `index.js` (lines **23–24**), adjust the maximum number of wrong answers per session and the error probability (`0` to `1` range, where `0.3` is 30% for a word to be wrong).
 
 2. **Start the bot:**
