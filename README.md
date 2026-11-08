@@ -4,6 +4,10 @@
 
 An automated bot designed to streamline the daily exercises on instaling.pl. This project leverages advanced browser automation and AI to provide a seamless learning experience.
 
+## Warning ⚠️
+
+The bot might not work properly if u have instaling plus purchased
+
 ## Table of Contents 📜
 
 - [Project Title & Badges](#instalingpl-bot-)
@@ -18,10 +22,6 @@ An automated bot designed to streamline the daily exercises on instaling.pl. Thi
 - [Contributing](#contributing-)
 - [License](#license-)
 - [Footer](#footer-)
-
-## Warning ⚠️
-
-The bot might not work properly if u have instaling plus purchased
 
 ## Description 📝
 
