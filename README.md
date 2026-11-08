@@ -42,7 +42,7 @@ The instaling.pl-bot is a sophisticated tool built with Node.js that automates t
   - `@nut-tree-fork/nut-js`
   - `dotenv`
   - Google Gemini API (via `fetch`)
-- **Other:** Next.js (mentioned in analysis but not directly used in provided code), TypeScript (mentioned in analysis but not directly used in provided code), Python (mentioned in analysis but not directly used in provided code), Express (mentioned in analysis but not directly used in provided code).
+    
 
 ## Installation 🛠️
 
