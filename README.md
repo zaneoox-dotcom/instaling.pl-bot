@@ -19,6 +19,10 @@ An automated bot designed to streamline the daily exercises on instaling.pl. Thi
 - [License](#license-)
 - [Footer](#footer-)
 
+## Warning ⚠️
+
+The bot might not work properly if u have instaling plus purchased
+
 ## Description 📝
 
 The instaling.pl-bot is a sophisticated tool built with Node.js that automates the process of completing daily exercises on the instaling.pl platform. It intelligently uses browser automation (Puppeteer) and an AI model (Google Gemini) to understand and correctly answer vocabulary exercises. The bot is designed to mimic human interaction patterns, making the automation less detectable and more natural.
