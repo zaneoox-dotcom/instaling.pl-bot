@@ -1,33 +1,31 @@
-# instaling.pl-bot 🤖
+# instaling.pl-bot 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 An automated bot designed to streamline the daily exercises on instaling.pl. This project leverages advanced browser automation and AI to provide a seamless learning experience.
 
-## Warning ⚠️
+## Warning 
 
 The bot might not work properly if u have instaling plus purchased
 
-## Table of Contents 📜
+## Table of Contents 
 
-- [Project Title & Badges](#instalingpl-bot-)
-- [Description](#description-)
-- [Features](#features-)
-- [Tech Stack](#tech-stack-)
-- [Installation](#installation-%EF%B8%8F)
-- [Usage](#usage-)
-- [How to Use](#how-to-use-)
-- [Project Structure](#project-structure-)
-- [API Reference](#api-reference-)
-- [Contributing](#contributing-)
-- [License](#license-)
-- [Footer](#footer-)
+- [Project Title & Badges](#instalingpl-bot)
+- [Description](#description)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How to Use](#how-to-use)
+- [API Reference](#api-reference)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Description 📝
+## Description 
 
 The instaling.pl-bot is a sophisticated tool built with Node.js that automates the process of completing daily exercises on the instaling.pl platform. It intelligently uses browser automation (Puppeteer) and an AI model (Google Gemini) to understand and correctly answer vocabulary exercises. The bot is designed to mimic human interaction patterns, making the automation less detectable and more natural.
 
-## Features 🚀
+## Features 
 
 - **Automated Exercise Completion:** Automatically navigates instaling.pl, logs in, and completes daily exercises.
 - **AI-Powered Translation:** Utilizes Google Gemini API to translate Polish words and phrases into English, fitting them into provided sentences.
@@ -37,7 +35,7 @@ The instaling.pl-bot is a sophisticated tool built with Node.js that automates t
 - **Error Handling & Retries:** Implements robust error handling for API calls and browser interactions, with retry mechanisms.
 - **Environment Configuration:** Uses `dotenv` to manage sensitive information like API keys and user credentials.
 
-## Tech Stack 💻
+## Tech Stack 
 
 - **Languages:** JavaScript
 - **Frameworks/Libraries:**
@@ -48,7 +46,7 @@ The instaling.pl-bot is a sophisticated tool built with Node.js that automates t
   - Google Gemini API (via `fetch`)
     
 
-## Installation 🛠️
+## Installation 
 
 1. **Clone the repository:**
    ```bash
@@ -75,7 +73,7 @@ The instaling.pl-bot is a sophisticated tool built with Node.js that automates t
    password=YOUR_INSTALING_PASSWORD
    ```
 
-## Usage 💡
+## Usage 
 
 Once installed and configured, you can run the bot to automate your instaling.pl exercises:
 
@@ -88,20 +86,13 @@ Once installed and configured, you can run the bot to automate your instaling.pl
    ```
 
    The bot will:
-   - Check for `rec.json`. If it doesn't exist, it will run the calibration process.
-   - If `rec.json` exists, it will ask if you want to recalibrate.
+   - Run the calibration process.
    - Log in to instaling.pl using the credentials from your `.env` file.
    - Start a new exercise session.
    - Use the AI to translate words and fill in the blanks.
    - Simulate human typing and clicking to complete the exercises.
 
-**Important Notes:**
-
-- Ensure your `.env` file is correctly set up with your Google Gemini API key and instaling.pl credentials.
-- The `calibration.js` script is crucial for the bot's ability to mimic human behavior. It's recommended to complete the calibration process thoroughly.
-- The bot might ask if you are already logged in. Respond accordingly (`y`, `n`, or `a` for always skip). If you choose 'a', it will assume you are logged in and proceed.
-
-## How to use 🧑‍🏫
+## How to use 
 
 This bot is designed for users who want to save time on their daily instaling.pl vocabulary practice. By automating the process, users can focus on reviewing rather than the repetitive task of inputting answers.
 
@@ -117,23 +108,7 @@ This bot is designed for users who want to save time on their daily instaling.pl
 8.  It checks the answer and proceeds to the next word.
 9.  Learned translations are cached for future use.
 
-## Project Structure 📂
-
-```
-instaling.pl-bot/
-├── .env              # Environment variables (API key, credentials)
-├── index.js          # Main entry point, orchestrates the bot's execution
-├── package.json      # Project metadata and dependencies
-├── README.md         # Project documentation (this file)
-├── LICENSE           # Project license information
-├── calibration.js    # Script for calibrating human-like interaction patterns
-├── persona.js        # Module to build a 'persona' based on calibration data
-├── player.js         # Module for simulating human mouse and keyboard actions
-├── rec.json          # Stores calibration data (generated after running calibration)
-└── words.json        # Cache for learned translations (generated by the bot)
-```
-
-## API Reference 🌐
+## API Reference 
 
 This project primarily interacts with the **Google Generative Language API** (for Gemini models) to perform translations. It also uses browser automation APIs from Puppeteer and input simulation APIs from `@nut-tree-fork/nut-js`.
 
@@ -147,7 +122,7 @@ This project primarily interacts with the **Google Generative Language API** (fo
 - **`@nut-tree-fork/nut-js`:**
   - Used for simulating low-level human input (mouse movements, clicks, keyboard typing) to make the bot's actions appear more natural.
 
-## Contributing 🙏
+## Contributing 
 
 Contributions are welcome! If you'd like to contribute, please:
 
@@ -159,20 +134,6 @@ Contributions are welcome! If you'd like to contribute, please:
 
 Please ensure your code adheres to the existing style and includes tests where appropriate.
 
-## License 📄
+## License 
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
-
-## Footer 🌐
-
-**Repository:** [instaling.pl-bot](https://github.com/zaneoox-dotcom/instaling.pl-bot)
-
-**Author:** Zaneoox
-
-**URL:** https://github.com/zaneoox-dotcom/instaling.pl-bot
-
---- 
-
-> Built with ❤️ and advanced automation.
-> 
-> Fork this repository, give it a ⭐, and open an issue if you find any bugs or have suggestions!
